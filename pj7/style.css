@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    min-height: 100px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+header > h1{
+     position: relative;
+    bottom: -30px;
+    font-size: 1.8em;
+}
+
+main{
+    max-width: 900px;
+    min-width: 300px;
+    
+}
+
+ol{
+    list-style-type: none;
+    margin: 8px;
+    font-size: 1.8em;
+    columns: 2;
+}
+
+li{
+    margin: 5px;
+}
