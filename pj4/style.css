@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes-baixadas/KGHAPPY.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte-1';
+    src: url('fontes-baixadas/balloons.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'fonte-2';
+    src: url('fontes-baixadas/Comica\ BD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte-3';
+    src: url('fontes-baixadas/DCC\ -\ Cloud.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte-4';
+    src: url('fontes-baixadas/KGShakeitOff.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte-5';
+    src: url('fontes-baixadas/SnackerComic_PerosnalUseOnly.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+
+header{
+    background-color:black;
+    color: white;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'fonte';
+    font-size: 25px;
+    
+
+}
+
+
+header h1{
+    text-shadow: 1px 2px 3px black;
+}
+
+header > h1::after{
+    content: "⇓";
+}
+
+main{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 70px;
+    margin: 10px;
+    
+    
+}
+
+.link1:hover{
+    text-decoration: underline red;
+}
+
+
+.link2:hover{
+    text-decoration: underline rgb(255, 134, 134);
+}
+
+.link3:hover{
+    text-decoration: underline cyan;
+}
+
+.link4:hover{
+    text-decoration: underline purple;
+}
+
+.link5:hover{
+    text-decoration: underline rgb(9, 34, 255);
+}
+
+.link1{
+    color: red;
+    font-family: 'fonte-1';
+}
+
+
+
+.link2{
+    color: rgb(255, 134, 134);
+    font-family: 'fonte-2';
+}
+
+.link3{
+    color: cyan;
+    font-family: 'fonte-3';
+}
+
+.link4{
+    color: purple;
+    font-family: 'fonte-4';
+}
+
+.link5{
+    color: blue;
+    font-family: 'fonte-5';
+}

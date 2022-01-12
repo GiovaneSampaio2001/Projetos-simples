@@ -1,0 +1,65 @@
+@font-face {
+    font-family:'fonte-1' ;
+    src: url('fontes/angrybirds-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte-2';
+    src: url('fontes/CUTE\ FROG.ttf') format('truetype');
+}
+
+h1:nth-child(odd){
+    font-family: 'fonte-1';
+    color: skyblue;
+
+}
+
+
+h1:nth-child(even){
+    font-family: 'fonte-2';
+    color: skyblue;
+}
+
+h2:nth-child(odd){
+    font-family: 'fonte-1';
+    color: skyblue;
+
+}
+
+
+h2:nth-child(even){
+    color: rgb(3, 3, 75);
+    font-family: 'fonte-2';
+    color: cyan;
+}
+
+h3:nth-child(odd){
+    font-family: 'fonte-1';
+    color: cyan;
+
+}
+
+
+h3:nth-child(even){
+    font-family: 'fonte-2';
+    color: cyan;
+}
+
+h4:nth-child(odd){
+    font-family: 'fonte-1';
+    color: cyan;
+
+}
+
+
+h4:nth-child(even){
+    font-family: 'fonte-2';
+    color: cyan;
+}
+
+
+body{
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+}

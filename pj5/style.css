@@ -1,0 +1,27 @@
+body{
+    background-color: #56A4F5;
+}
+
+.sites{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: -25px;
+}
+
+p{
+    text-align: center;
+    font-size: 19px;
+    position: relative;
+    bottom: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

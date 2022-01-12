@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+ @font-face {
+     font-family: 'f2';
+     src: url('fontes/KGHAPPY.ttf') format('truetype');
+ }
+
+
+*{
+    margin: 0px;
+}
+
+
+nav{
+    background-color: blue;
+    
+}
+
+
+ol{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    
+    margin: 10px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Road Rage', cursive;
+    font-size: 30px;
+    color: white;
+    margin-bottom: -50px;
+}
+
+.google:hover{
+    text-decoration: underline rgb(255, 149, 149);
+}
+
+.youtube:hover{
+    text-decoration:underline red;
+}
+
+.twiter:hover{
+    text-decoration: underline    skyblue;
+}
+
+.facebook:hover{
+    text-decoration: underline  rgb(2, 2, 116);
+}
+
+.instragam:hover{
+    text-decoration: underline  rgb(209, 4, 209);
+}
+
+
+
+.google:visited{
+    color: rgb(255, 149, 149);
+}
+
+.youtube:visited{
+    color: red;
+}
+
+.twiter:visited{
+    color: skyblue;
+}
+
+.facebook:visited{
+    color: rgb(2, 2, 116);
+}
+
+.instragam:visited{
+    color: rgb(209, 4, 209);
+}
+
+
+header{
+    min-width: 150px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'f2';
+   
+    
+}
+
+header > h1{
+ color: white;
+    font-weight: lighter;
+    text-shadow: 1px 2px 3px blue;
+}
+
+body{
+    background-color: blue;
+}

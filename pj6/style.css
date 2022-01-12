@@ -1,0 +1,108 @@
+
+body{
+    background-color: black;
+    background-image: url('fundos/the_emoji_wallpaper_by_uzijin_dbmzqrs-pre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.emojins{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    display: inline-block;
+    margin: 10px auto;
+    
+}
+
+.emo1{
+    background-color: blue;
+}
+
+
+.emo2{
+    background-color: blueviolet;
+}
+
+.emo3{
+    background-color: skyblue;
+}
+
+.emo4{
+    background-color: springgreen;
+   
+}
+
+
+.emo5{
+    background-color: lightgreen;
+}
+
+.emo6{
+    background-color: lightslategrey;
+}
+
+.emo7{
+    background-color: lightsalmon;
+}
+
+.emo8{
+    background-color: magenta;
+}
+
+.emo9{
+    background-color: yellow;
+}
+
+.emo10{
+    background-color: violet;
+}
+
+.emo11{
+    background: wheat;
+}
+
+.emo12{
+    background-color: red;
+}
+
+.emo13{
+    background-color: sandybrown;
+}
+
+.emo14{
+    background-color: slateblue;
+}
+
+.emo15{
+    background-color: lemonchiffon;
+}
+
+.emo16{
+    background-color: mediumseagreen;
+}
+
+.emo17{
+    background-color: mediumturquoise;
+}
+
+.emo18{
+    background-color: navy;
+}
+
+.emo19{
+    background-color: orange;
+}
+
+.emo20{
+    background-color: lightsteelblue;
+}
+
+p{
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
