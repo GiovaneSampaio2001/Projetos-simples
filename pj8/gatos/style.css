@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+    max-width: 1500px;
+    min-width: 300px;
+    background-image: url('gato.jpeg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+img{
+    display: block;
+    border: 5px solid white;
+    margin:20px auto ;
+}
