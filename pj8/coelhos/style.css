@@ -1,0 +1,16 @@
+body{
+    background-color: purple;
+    background-image: url('imagens/cfnd.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    max-width: 1500px;
+    min-width: 300px;
+}
+
+
+img{
+    border: 5px solid white;
+    display: block;
+    margin:20px auto;
+}

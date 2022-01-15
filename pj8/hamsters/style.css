@@ -1,0 +1,14 @@
+body{
+    background-color: lightskyblue;
+    background-image: url('imagens/hm.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+img{
+    border: 5px solid white;
+    display: block;
+    margin: 20px auto;
+}
