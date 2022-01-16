@@ -1,7 +1,7 @@
 body{
     background-color: purple;
-    background-image: url('imagens/cfnd.jpg');
     background-attachment: fixed;
+    background-image: url('imagens/fundo.jpg');
     background-size: cover;
     background-position: center center;
     max-width: 1500px;
