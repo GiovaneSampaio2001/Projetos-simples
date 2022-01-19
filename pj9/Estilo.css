@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'fonte-principal';
+  src: url('fontes/JustBubble.ttf') format('opentype');
+}
+
+
+*{
+  margin:0px;
+}
+
+body{
+  background-color:lightblue;
+  background-image: url('imagens/fundo.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+header{
+  background-color: blue;
+  color:white;
+  padding:50px;
+  
+}
+
+header > h1{
+  text-align: center;
+  font-family: 'fonte-principal';
+  text-shadow: 1px 2px 3px black;
+  font-size: 40px;
+}
+
+
+main{
+  position:relative;
+  bottom:-20px;
+  background-color: white;
+  max-width:900px;
+  min-width:300px;
+  margin:auto;
+  padding:8px;
+}
+
+.m2{
+  position:relative;
+  bottom:-50px;
+}
+
+.m3{
+  position: relative;
+  bottom:-80px;
+}
+
+.m4{
+  position: relative;
+  bottom:-100px;
+}
+
+.m5{
+  bottom:-120px;
+  position:relative;
+}
+
+caption{
+  border:1px solid black;
+  background-color: lightgray;
+}
+
+table{
+  position:relative;
+  bottom:-30px;
+  border-collapse: collapse;
+  height:500px;
+  width:500px;
+  margin:auto;
+  
+}
+
+td{
+  border:1px solid black;
+  text-align:center;
+  font-size:1.8em;
+}
+
+.tabelas{
+  overflow-x: auto;
+}
+
+
+footer{
+  background-color: blue;
+  color:white;
+  padding:50px;
+  position: relative;
+  bottom: -200px;
+}
+
+a{
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+footer > p{
+  text-align: center;
+  font-size: 30px;
+}
+
