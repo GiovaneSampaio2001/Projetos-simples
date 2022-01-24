@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'FONTE-PRINCIPAL';
+  src: url('fontes/Shortbread_Cookies-Reg.ttf') format('truetype');
+}
+
+body{
+  background-color:blue;
+}
+
+span{
+  color:white;
+}
+
+
+h1{
+  font-family:"FONTE-PRINCIPAL";
+  color:white;
+  text-shadow:1px 2px 3px black;
+  
+}
+
+
+
+p{
+  font-family:arial,sans-serif;
+  font:50px;
+  color:white;
+  text-shadow:1px 2px 3px black;
+  
+}
+
+
+input{
+  width:100px;
+}
+
+button{
+  background-color: blue;
+  color:white;
+  border-radius:20px;
+}
