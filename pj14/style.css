@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header{
+    background-image: url('fundo/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width:1500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+header > h1{
+    text-shadow: 1px 2px 3px black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+
+section{
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px;
+    max-width: 1500px;
+    min-width: 300px;
+}
+
+p{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.letras{
+    box-shadow: 1px 2px 3px black;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+     width: 300px;
+    height: 300px;
+    background-color: blue;
+    
+}
+
+.letrasmi{
+    box-shadow: 1px 2px 3px black;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+     width: 300px;
+    height: 300px;
+    background-color: rgba(0, 195, 255, 0.897);
+}
