@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px black;
+  color:white;
+}
+
+input{
+  margin:auto;
+  display:block;
+}
+
+.Numbers{
+
+  width: 500px;
+  box-shadow:1px 2px 3px black;
+  border-radius:15px;
+  margin:10px;
+  background-color: #B4B9ED;
+  padding:10px;
+}
+
+.n1{
+  background-color:#EDB4B5;
+}
+
+.n2{
+  background-color: #BFEDB4;
+}
+
+.n4{
+  background-color: #DBEC87;
+}
+
+button{
+  display:block;
+  margin:auto;
+  padding: 5px;
+}
