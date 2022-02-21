@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Fonte-Principal';
+  src: url('fontes/Best School Outline Font by Kelik (7NTypes).otf') format('opentype');
+}
+
+body{
+  background-color:#B0B7FF;
+  font-family:arial,sans-serif;
+}
+
+h1{
+  font-family: 'Fonte-Principal';
+  color:white;
+  text-shadow:1px 2px 3px blue;
+}
+
+.conteudo{
+  box-shadow:1px 2px 3px black;
+  margin:10px;
+  flex-wrap:wrap;
+  margin:auto;
+  background-color:white;
+  max-width:500px;
+  min-width:200px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:10px;
+}
+
+.conteudo > p{
+  text-align:center;
+}
+
+
+
+input{
+  width:300px;
+  display:block;
+  margin:auto;
+  
+}
+
+button{
+  margin:10px auto;
+  display:inline-block;
+  width:100px;
+  padding:5px;
+  border-radius:10px;
+}
