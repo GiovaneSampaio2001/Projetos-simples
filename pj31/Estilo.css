@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'FONTE-PRINCIPAL';
+  src: url('Fontes/Sketch 3D.otf') format('opentype');
+}
+
+
+
+h1{
+  text-align: center;
+  position:relative;
+  bottom:-20px;
+  font-family: 'FONTE-PRINCIPAL';
+}
+
+.container{
+  width:300px;
+  box-shadow:1px 2px 3px black;
+  padding:10px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: space-around;
+  border-radius:20px;
+}
+
+
+
+button{
+  border-radius:10px;
+  margin:5px;
+}
+
+
+p{
+  font-family: 'FONTE-PRINCIPAL';
+  font-size:50px;
+  text-align: center;
+  color:blue;
+}

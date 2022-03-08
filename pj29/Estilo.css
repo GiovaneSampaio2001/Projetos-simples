@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'FONTE-UM';
+  src: url('fontes/Candy Beans.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FONTE-DOIS';
+  src: url('fontes/BebasNeue-Regular.ttf') format('truetype');
+}
+
+
+*{
+  margin:0px;
+}
+
+span{
+  padding:100px;
+  background-color:black;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+button{
+  font-family: 'FONTE-DOIS';
+  font-size:30px;
+  margin:20px;
+  padding:50px;
+  box-shadow: 1px 2px 3px dimgrey;
+
+}
+
+div:nth-of-type(odd){
+  background-color: white;
+  padding:100px;
+  
+}
+
+div:nth-of-type(even){
+  background-color: black;
+  padding:100px;
+  color:white;
+}
+
+
+p{
+  font-size:50px;
+  text-align: center;
+  font-family: 'FONTE-UM';
+  font-weight: bolder;
+}
