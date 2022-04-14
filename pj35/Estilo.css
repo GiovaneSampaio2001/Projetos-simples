@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'FONTE-1';
+  src: url('fontes/Typo Grotesk Black Demo.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FONTE-2';
+  src: url('fontes/varsity_regular.ttf');
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  background-image:url('ingles22.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height:250px;
+  border:1px solid white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 1px 2px 3px white;
+}
+
+header > h1{
+  color:white;
+  text-shadow:1px 2px 3px black;
+  font-family: 'FONTE-2';
+  font-size:25px;
+}
+
+.container{
+  border:1px solid white;
+  box-shadow:1px 2px 3px white;
+  min-height: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+}
+
+.Palavras{
+  padding:15px;
+  min-height:150px;
+  border:1px solid white;
+  box-shadow:1px 2px 3px white;
+  min-height:150px;
+}
+
+button{
+  font-size:20px;
+}
+
+ol{
+  columns:3;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  font-family: 'FONTE-1';
+  list-style-type: none;
+  margin:5px;
+  list-style-position: inside;
+  color:white;
+  
+}
+
+
+footer{
+  background-image:url('english.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height:250px;
+  border:1px solid white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 1px 2px 3px white;
+}
+
+footer > p{
+  color:white;
+  font-size:25pt;
+  text-shadow:1px 2px 3px black;
+  font-family:arial;
+}

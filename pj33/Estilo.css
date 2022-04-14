@@ -1,0 +1,97 @@
+
+*{
+  margin:0px;
+}
+
+@font-face {
+  font-family: 'FONTE-TRES';
+  src: url('fontes/Organic Relief.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'FONTE-UM';
+  src: url("fontes/Louis George Cafe Bold Italic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'FONTE-DOIS';
+  src: url('fontes/Comfortaa-Bold.ttf') format("truetype");
+}
+
+header{
+  background-color: black;
+  color:white;
+  min-height:115px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  padding:5px;
+}
+
+header > h1{
+  font-family: "FONTE-UM";
+  text-shadow:2px 3px black;
+}
+
+nav{
+  background-color: black;
+  color:white;
+  padding:5px;
+
+}
+
+footer{
+  min-height:115px;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: black;
+  padding:5px;
+  
+}
+
+footer > p{
+  font-family: 'FONTE-TRES'
+}
+
+
+ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li{
+  font-family:"FONTE-DOIS";
+  margin:20px;
+}
+
+
+.container{
+  margin:20px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  
+
+}
+
+img{
+  display:inline-block;
+  max-width:300px;
+  min-width:100px;
+  margin:20px;
+  border:2px solid white;
+  box-shadow:1px solid black;
+}
+
+
+
+section{
+  max-width:1500px;
+  min-width:200px;
+}
