@@ -1,0 +1,37 @@
+
+
+.container{
+  min-height:400px;
+  border:1px solid black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Bolas{
+  width:100px;
+  height:100px;
+  border-radius:100px;
+  margin: 10px;
+}
+
+.Bola1{
+  background-color: red;
+}
+
+.Bola2{
+  background-color: plum;
+}
+
+p{
+  background-color: lime;
+  width:90px;
+  text-align: center;
+  padding:10px;
+  border-radius: 100px;
+
+}
+
+.CaixasDeBotoes{
+  
+}

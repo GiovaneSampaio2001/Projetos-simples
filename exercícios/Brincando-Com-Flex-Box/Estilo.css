@@ -1,0 +1,113 @@
+@media(max-width: 500px){
+  .Caixa-Principal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(max-width:200px){
+  .Caixa-Principal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Caixa-Principal{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container{
+  min-height:600px;
+  width:300px;
+  border:1px solid black;
+  display:flex;
+  
+}
+
+.Cores{
+  width:200px;
+  height:200px;
+  flex:5;
+}
+
+.Cor1{
+  background-color:purple;
+  align-self: flex-start;
+}
+
+.Cor2{
+  background-color: darkcyan;
+  align-self: center;
+}
+
+.Cor3{
+  background-color: salmon;
+  align-self: flex-end;
+}
+
+.Cor4{
+  background-color: khaki;
+  align-self: flex-end;
+}
+
+.Cor5{
+  background-color: lime;
+  align-self: center;
+}
+
+.Cor6{
+  background-color: aqua;
+  align-self: flex-start;
+}
+
+.Cor7{
+  background-color:hotpink;
+  align-self:flex-start;
+}
+
+.Cor8{
+  background-color: palegreen;
+  align-self: center;
+}
+
+.Cor9{
+  background-color: olive;
+  align-self: flex-end;
+}
+
+.Cor10{
+  background-color: gold;
+  align-self: flex-end;
+}
+
+.Cor11{
+  background-color:grey;
+  align-self: center;
+}
+
+.Cor12{
+  background-color: #6E7191;
+  align-self: flex-start;
+}
+
+.Cor13{
+  background-color: #FFB1B1;
+  align-items: flex-start;
+}
+
+.Cor14{
+  background-color: #D6B1FF;
+  align-self:center;
+}
+
+.Cor15{
+  background-color: #B1F7FF;
+  align-self:flex-end;
+}

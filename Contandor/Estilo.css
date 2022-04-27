@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "FONTE-PRINCIPAL";
+  src: url("fonte/Organic Relief.ttf") format('truetype');
+}
+
+*{
+  font-family: 'FONTE-PRINCIPAL';
+}
+
+
+h1{
+  text-align: center;
+}
+
+.Container{
+  display:flex;
+  justify-content:space-around;
+  margin:20px;
+}
+
+.Aumentou{
+  border-radius:50px;
+  background-color: lightblue;
+  width:100px;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:40px;
+}
+
+.Diminuiu{
+  border-radius:50px;
+  background-color: lightblue;
+  width:100px;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:40px;
+}
+
+p{
+  font-size: 40px;
+  text-align: center;
+  
+}
