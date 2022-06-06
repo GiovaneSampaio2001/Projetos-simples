@@ -1,0 +1,148 @@
+*{
+  margin:0px;
+}
+
+
+.Container{
+  min-height:500px;
+  box-shadow:5px 6px 7px black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container1{
+  background-color: blue;
+}
+
+.Container2{
+  background-color: yellow;
+}
+
+.Container3{
+  background-color:red;
+}
+
+.Container4{
+  background-color: purple;
+}
+
+.Container5{
+   background-color: green;
+}
+
+.Container6{
+  background-color: orange;
+}
+
+.Container7{
+  background-color: pink;
+}
+
+.Container8{
+  background-color: #9DFFF3;
+}
+
+.Container9{
+  background-color: #BB5F00;
+}
+
+.Container10{
+  background-color: lightblue;
+}
+
+.Caixas{
+  width:300px;
+  height:300px;
+  box-shadow: 5px 6px 7px black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Caixa1{
+  background-color: #AEB5FF;
+}
+
+.Caixa2{
+  background-color: #EAFF90;
+}
+
+.Caixa3{
+  background-color: #FF6464;
+}
+
+.Caixa4{
+  background-color: #EDACFF;
+}
+
+.Caixa5{
+  background-color: #5B985D;
+}
+
+
+.Caixa6{
+  background-color: #FFF8B5;
+}
+
+.Caixa7{
+  background-color: hotpink;
+}
+
+.Caixa8{
+  background-color: #7FB3AD;
+}
+
+.Caixa9{
+  background-color: #AA7E51;
+}
+
+.Caixa10{
+  background-color: lightcyan;
+}
+
+.Caixinhas{
+  width:100px;
+  height:100px;
+  box-shadow: 5px 6px 7px black;
+}
+
+.Caixinha1{
+  background-color:#000C92;
+}
+
+.Caixinha2{
+  background-color: #E7FF00;
+}
+
+.Caixinha3{
+  background-color: darkred;
+}
+
+.Caixinha4{
+  background-color: #8C31A6;
+}
+
+.Caixinha5{
+  background-color: #00A906;
+}
+
+.Caixinha6{
+  background-color: #FFE600;
+}
+
+.Caixinha7{
+  background-color: #FF9DF3;
+}
+
+.Caixinha8{
+  background-color: #00BBA4;
+}
+
+.Caixinha9{
+  background-color: #FF8200;
+}
+
+.Caixinha10{
+  background-color: lightgreen;
+}

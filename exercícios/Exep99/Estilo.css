@@ -1,0 +1,57 @@
+
+
+@font-face {
+  font-family: 'FONTEPRINCIPAL';
+  src: url('Fontes/ExtremeFilled.ttf') format('truetype');
+}
+
+
+.Container{
+  min-height:190px;
+}
+
+.Caixa{
+  min-height:190px;
+}
+
+p{
+  text-align: center;
+  font-size:10vw;
+}
+
+.Numero1{
+  font-family: 'FONTEPRINCIPAL';
+  color:blue;
+}
+
+.Numero2{
+  font-family: 'FONTEPRINCIPAL';
+  color:red;
+}
+
+.Numero3{
+  font-family: 'FONTEPRINCIPAL';
+  color:green;
+}
+
+.Letra1{
+  font-family: 'FONTEPRINCIPAL';
+  color:#EB52CA;
+}
+
+.Letra2{
+  font-family: 'FONTEPRINCIPAL';
+  color:#42445A;
+}
+
+.Letra3{
+  font-family: 'FONTEPRINCIPAL';
+  color:#25FF00;
+}
+
+
+button{
+  margin:10px auto ;
+  display:block;
+  width:150px;
+}

@@ -1,0 +1,74 @@
+*{
+  margin:0px;
+}
+
+section{
+  max-width:1500px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container{
+  min-height:120px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.Bolas{
+  width:100px;
+  height:100px;
+  border-radius:100px;
+
+  
+}
+
+
+
+.Bola1{
+  background-color: blue;
+}
+
+.Bola2{
+  background-color: green;
+}
+
+.Bola3{
+  background-color: purple;
+}
+
+.Bola4{
+  background-color: pink;
+}
+
+.Bola5{
+  background-color: orange;
+}
+
+.Bola6{
+  background-color: red;
+}
+
+.Bola7{
+   background-color: brown;
+}
+
+.Bola8{
+  background-color: yellow;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+
+}
+
+li{
+  margin:5px;
+  text-decoration: underline;
+  
+}

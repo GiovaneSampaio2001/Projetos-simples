@@ -1,0 +1,71 @@
+.Container{
+  min-height:500px;
+  border:3px solid black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Bolas{
+  background-color: cyan;
+  width:300px;
+  height:300px;
+  border-radius:400px;
+  box-shadow: 10px 10px 10px black;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  
+}
+
+.Bolinhas{
+  width:100px;
+  height:100px;
+  background-color: cadetblue;
+  box-shadow:10px 10px 10px black;
+  border-radius:100px;
+}
+
+.Ball{
+  background-color: cyan;
+  width:300px;
+  height:300px;
+  border-radius:400px;
+  box-shadow: 10px 10px 10px black;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Balls{
+  width:50px;
+  height:50px;
+  box-shadow:10px 10px 10px;
+}
+
+.Balls:nth-of-type(1){
+  background-color:purple;
+}
+
+.Balls:nth-of-type(2){
+  background-color: yellow;
+}
+
+.Balls:nth-of-type(3){
+  background-color: white;
+}
+
+.Botoes{
+  width:150px;
+  height:150px;
+  border:3px solid black;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.H{
+  justify-content: space-evenly
+}

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'FONTE-PRINCIPAL';
+  src: url('Fontes/Mangaka.otf') format('opentype');
+}
+
+p{
+  font-family: 'FONTE-PRINCIPAL';
+  color:blue;
+}

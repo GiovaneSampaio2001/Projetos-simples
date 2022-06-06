@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cores Com Sobras</title>
+    <style>
+    
+*{
+  margin:0px;
+}
+      
+.Container{
+  min-height:120px;
+  border:1px solid black;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  padding:10px;
+}
+
+.Bolas{
+  width:90px;
+  height:90px;
+  border-radius:100px;
+  margin:10px;
+  box-shadow: 10px 10px 10px black;
+
+}
+
+.Caixas{
+  width:90px;
+  height:90px;
+  margin:10px;
+  box-shadow:10px 10px 10px black;
+}
+
+.Bola1{
+  background-color: pink;
+  
+}
+
+.Bola2{
+  background-color: orange;
+  
+}
+
+.Bola3{
+  background-color: purple;
+  
+}
+
+.Bola4{
+  background-color: darkcyan;
+  
+}
+
+.Bola5{
+  background-color: wheat;
+  
+}
+
+.Bola6{
+  background-color: lightblue;
+  
+}
+
+.Bola7{
+  background-color: cyan;
+  
+}
+
+.Bola8{
+  background-color: #FF9191;
+
+}
+
+.Bola9{
+  background-color: #890203;
+  
+}
+
+.Bola10{
+  background-color:hotpink;
+}
+
+.Bola11{
+  background-color: #8C8D9D;
+}
+
+.Bola12{
+  background-color: #3F7830;
+}
+
+.Bola13{
+  background-color: #1F9800;
+}
+
+.Bola14{
+  background-color: #88AB7F;
+}
+
+.Bola15{
+  background-color: #E6E8E6;
+}
+
+.Bola16{
+  background-color: #000000;
+}
+
+.Bola17{
+  background-color: #C3C3C3;
+}
+
+.Bola18{
+  background-color:#98986B;
+}
+
+.Bola19{
+  background-color: #B8B82C;
+}
+
+.Bola20{
+  background-color: #FFFF01;
+}
+
+.Bola21{
+  background-color: #A1FF8E;
+}
+
+.Bola22{
+  background-color: #667475;
+}
+
+.Bola23{
+  background-color:#9AC5C8;
+}
+
+.Bola24{
+  background-color: #00939D;
+}
+
+.Bola25{
+  background-color: lightgrey;
+}
+
+.Bola26{
+  background-color: #26009D;
+}
+
+.Bola27{
+  background-color: #2A195E;
+}
+
+.Bola28{
+  background-color: #5D4D8F;
+}
+
+.Bola29{
+  background-color: #766B9A;
+}
+
+.Bola30{
+  background-color: #624465;
+}
+
+.Bola31{
+  background-color: #98709D;
+}
+
+.Bola32{
+  background-color: #ACB843;
+}
+
+.Bola33{
+  background-color: darkgrey;
+}
+
+.Bola34{
+  background-color: whitesmoke;
+}
+
+.Bola35{
+  background-color: lime;
+}
+
+.Bola36{
+  background-color: peru;
+}
+
+.Bola37{
+  background-color: powderblue;
+}
+
+.Bola38{
+  background-color: peachpuff;
+}
+
+.Bola39{
+  background-color:#8C8F77;
+}
+
+.Bola40{
+  background-color: papayawhip;
+}
+
+.Bola41{
+  background-color: maroon;
+}
+
+.Bola42{
+  background-color: magenta;
+}
+
+.Bola43{
+  background-color: mistyrose;
+}
+
+.Bola44{
+  background-color: olive;
+}
+
+.Bola45{
+  background-color: seashell;
+}
+
+.Bola46{
+  background-color: lemonchiffon;
+}
+
+.Bola47{
+  background-color: lightgoldenrodyellow;
+}
+
+.Bola48{
+  background-color: snow;
+}
+
+.Bola49{
+  background-color: sandybrown;
+}
+
+.Bola50{
+  background-color: deeppink;
+}
+
+.Caixa1{
+  background-color: lime;
+}
+
+.Caixa2{
+  background-color:yellow;
+}
+
+.Caixa3{
+  background-color: honeydew;
+}
+
+.Caixa4{
+  background-color: lightblue;
+}
+
+.Caixa5{
+  background-color: navajowhite;
+}
+
+.Caixa6{
+  background-color: darkgreen;
+}
+
+.Caixa7{
+  background-color:#FDFFF0;
+}
+
+.Caixa8{
+  background-color: white;
+}
+
+.Caixa9{
+  background-color: azure;
+}
+
+.Caixa10{
+  background-color: aquamarine;
+}
+
+.Caixa11{
+ background-color: black;
+}
+
+.Caixa12{
+  background-color:skyblue;
+}
+
+.Caixa13{
+  background-color: gold;
+}
+
+.Caixa14{
+  background-color: magenta;
+}
+
+.Caixa15{
+  background-color: #B0C01B;
+}
+
+.Caixa17{
+  background-color: #535C00;
+}
+
+.Caixa18{
+  background-color: #C5C6BF;
+}
+
+.Caixa19{
+  background-color: orangered;
+}
+
+.Caixa20{
+  background-color:plum;
+}
+
+.Caixa21{
+  background-color: #468B9F;
+}
+
+.Caixa22{
+  background-color: #06637F;
+}
+
+.Caixa23{
+  background-color: #022E3B;
+}
+
+.Caixa24{
+  background-color: darkcyan;
+}
+
+.Caixa25{
+  background-color: slateblue;
+}
+
+.Caixa26{
+  background-color: lightpink;
+}
+
+.Caixa27{
+  background-color: lightcoral;
+}
+
+.Caixa28{
+  background-color: lightsalmon;
+}
+
+.Caixa29{
+  background-color: blueviolet;
+}
+
+.Caixa30{
+  background-color: antiquewhite;
+}
+
+.Caixa31{
+  background-color: maroon;
+}
+
+.Caixa32{
+  background-color: navy;
+}
+
+.Caixa33{
+  background-color: goldenrod;
+}
+
+.Caixa34{
+  background-color: darkcyan;
+}
+
+.Caixa35{
+  background-color: violet;
+}
+
+.Caixa36{
+  background-color:#3B0232;
+}
+
+.Caixa37{
+  background-color: #C38BBA;
+}
+
+.Caixa38{
+  background-color: #A49FA3;
+}
+
+.Caixa39{
+  background-color: coral;
+}
+
+.Caixa40{
+  background-color: crimson;
+}
+
+.Caixa41{
+  background-color: oldlace;
+}
+
+.Caixa42{
+  background-color: lavender;
+}
+
+.Caixa43{
+  background-color: peru;
+}
+
+.Caixa44{
+  background-color: teal;
+}
+
+.Caixa45{
+  background-color: turquoise;
+}
+
+.Caixa46{
+  background-color: sienna;
+}
+
+.Caixa47{
+  background-color: whitesmoke;
+}
+
+.Caixa48{
+  background-color: bisque;
+}
+
+.Caixa49{
+  background-size: #446D8A;
+}
+
+.Caixa50{
+  background-color: #839861;
+}
+
+    </style>
+</head>
+<body>
+  
+<div class="Container">
+  
+<div class="Bolas Bola1">
+  
+  
+</div>
+
+<div class="Bolas Bola2">
+  
+  
+</div>
+
+<div class="Bolas Bola3">
+  
+  
+</div>
+
+<div class="Bolas Bola4">
+  
+  
+</div>
+
+<div class="Bolas Bola5">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola6">
+  
+  
+  
+</div>
+
+<div class="Bolas Bola7">
+  
+  
+</div>
+  
+<div class="Bolas Bola8">
+  
+  
+</div>
+
+<div class="Bolas Bola9">
+  
+  
+</div>
+
+<div class="Bolas Bola10">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola11">
+  
+  
+</div>
+
+<div class="Bolas Bola12">
+  
+  
+</div>
+
+<div class="Bolas Bola13">
+  
+  
+</div>
+
+<div class="Bolas Bola14">
+  
+  
+</div>
+
+<div class="Bolas Bola15">
+  
+  
+</div>
+  
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola16">
+  
+  
+</div>
+
+<div class="Bolas Bola17">
+  
+  
+</div>
+
+<div class="Bolas Bola18">
+  
+  
+</div>
+
+<div class="Bolas Bola19">
+  
+  
+</div>
+
+<div class="Bolas Bola20">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola21">
+  
+  
+</div>
+
+<div class="Bolas Bola22">
+  
+  
+</div>
+
+
+<div class="Bolas Bola23">
+  
+  
+</div>
+  
+<div class="Bolas Bola24">
+  
+  
+</div>
+
+<div class="Bolas Bola25">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola26">
+  
+  
+</div>
+
+<div class="Bolas Bola27">
+  
+  
+</div>
+
+<div class="Bolas Bola28">
+  
+  
+</div>
+  
+<div class="Bolas Bola29">
+  
+  
+</div>
+
+<div class="Bolas Bola30">
+  
+  
+</div>
+  
+
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola31">
+  
+  
+</div>
+
+<div class="Bolas Bola32">
+  
+  
+</div>
+
+<div class="Bolas Bola33">
+  
+  
+</div>
+
+<div class="Bolas Bola34">
+  
+</div>
+
+<div class="Bolas Bola35">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola36">
+  
+  
+</div>
+
+<div class="Bolas Bola37">
+  
+  
+</div>
+
+<div class="Bolas Bola38">
+  
+</div>
+
+<div class="Bolas Bola39">
+  
+  
+</div>
+
+<div class="Bolas Bola40">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola41">
+  
+  
+</div>
+
+<div class="Bolas Bola42">
+  
+  
+</div>
+
+<div class="Bolas Bola43">
+  
+  
+</div>
+
+<div class="Bolas Bola44">
+  
+  
+</div>
+
+<div class="Bolas Bola45">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Bolas Bola46">
+  
+  
+</div>
+
+<div class="Bolas Bola47">
+  
+  
+</div>
+
+<div class="Bolas Bola48">
+  
+  
+</div>
+
+<div class="Bolas Bola49">
+  
+  
+</div>
+
+<div class="Bolas Bola50">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa1">
+  
+  
+</div>
+
+<div class="Caixas Caixa2">
+  
+  
+</div>
+
+<div class="Caixas Caixa3 ">
+  
+  
+</div>
+
+<div class="Caixas Caixa4">
+  
+  
+</div>
+
+<div class="Caixas Caixa5">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa6">
+  
+  
+</div>
+
+<div class="Caixas Caixa7">
+  
+  
+</div>
+
+<div class="Caixas Caixa8">
+  
+  
+</div>
+
+<div class="Caixas Caixa9">
+  
+  
+</div>
+
+<div class="Caixas Caixa10">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa11">
+  
+  
+</div>
+  
+<div class="Caixas Caixa12">
+  
+  
+</div>
+
+<div class="Caixas Caixa13">
+  
+  
+</div>
+
+<div class="Caixas Caixa14">
+  
+  
+</div>
+
+<div class="Caixas Caixa15">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa16">
+  
+  
+</div>
+
+<div class="Caixas Caixa17">
+  
+  
+</div>
+
+<div class="Caixas Caixa18">
+  
+  
+</div>
+
+<div class="Caixas Caixa19">
+  
+  
+</div>
+
+<div class="Caixas Caixa20">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa21">
+  
+  
+</div>
+
+<div class="Caixas Caixa22">
+  
+  
+</div>
+
+<div class="Caixas Caixa23">
+  
+  
+</div>
+
+<div class="Caixas Caixa24">
+  
+  
+</div>
+
+<div class="Caixas Caixa25">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa26">
+  
+  
+</div>
+
+<div class="Caixas Caixa27">
+  
+  
+</div>
+
+<div class="Caixas Caixa28">
+  
+  
+</div>
+
+<div class="Caixas Caixa29">
+  
+  
+</div>
+
+<div class="Caixas Caixa30">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa31">
+  
+  
+</div>
+
+<div class="Caixas Caixa32">
+  
+  
+</div>
+  
+<div class="Caixas Caixa33">
+  
+  
+</div>
+
+<div class="Caixas Caixa34">
+  
+  
+</div>
+
+<div class="Caixas Caixa35">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa36">
+  
+  
+</div>
+
+<div class="Caixas Caixa37">
+  
+  
+</div>
+
+<div class="Caixas Caixa38">
+  
+  
+</div>
+
+<div class="Caixas Caixa39">
+  
+  
+</div>
+
+<div class="Caixas Caixa40">
+  
+  
+</div>
+  
+</div>
+  
+<div class="Container">
+
+<div class="Caixas Caixa41">
+  
+  
+</div>
+
+<div class="Caixas Caixa42">
+  
+  
+</div>
+  
+<div class="Caixas Caixa43">
+  
+  
+</div>
+
+<div class="Caixas Caixa44">
+  
+  
+</div>
+
+<div class="Caixas Caixa45">
+  
+  
+</div>
+  
+</div>
+
+<div class="Container">
+  
+<div class="Caixas Caixa46">
+  
+  
+</div>
+
+<div class="Caixas Caixa47">
+  
+  
+</div>
+
+<div class="Caixas Caixa48">
+  
+  
+</div>
+
+<div class="Caixas Caixa49">
+  
+  
+</div>
+
+<div class="Caixas Caixa50">
+  
+  
+</div>
+  
+</div>
+  
+</div>
+
+</body>
+</html>

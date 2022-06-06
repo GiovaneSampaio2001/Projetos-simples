@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'FONTE-PRINCIPAL';
+  src: url('Fontes/Louis George Cafe Light.ttf') format('truetype');
+}
+
+body{
+  font-family: 'FONTE-PRINCIPAL';
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  margin:auto;
+  display:block;
+}
+
+button{
+  margin:auto;
+  display:block;
+}
+
+p{
+  font-size:5vw;
+}
