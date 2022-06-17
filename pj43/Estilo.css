@@ -1,0 +1,18 @@
+body{
+  background-color:blue;
+  color:white;
+}
+
+input{
+  margin:auto;
+  display:block;
+}
+
+p{
+  text-align: center;
+}
+
+button{
+  display:block;
+  margin:auto;
+}

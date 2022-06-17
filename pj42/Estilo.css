@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+}
+
+.Caixa{
+  max-height:500px;
+  padding:10px;
+  
+}
+
+.Container{
+  background-color: white;
+  max-width:500px;
+  height:200px;
+  margin:10px auto ;
+  border-radius:400px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Bolas{
+  width:150px;
+  height:150px;
+  box-shadow:6px 7px 8px black;
+  border-radius:100px;
+}
+
+button{
+  display:block;
+  margin:15px auto ;
+  width:150px;
+}

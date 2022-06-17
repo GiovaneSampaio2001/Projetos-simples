@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+  margin:0px;
+}
+
+body{
+  background-image: linear-gradient(to bottom,cyan,darkcyan);
+}
+
+.Container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Tabuadas{
+  width:400px;
+  height:1000px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow:5px 6px 7px black;
+  
+}
+
+.Tabuadas:nth-of-type(odd){
+  background-image:linear-gradient(to bottom,blue,darkblue);
+}
+
+.Tabuadas:nth-of-type(even){
+  background-image: linear-gradient(to bottom,red,darkred);
+}
+
+h1{
+  color:white;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  text-shadow:4px 5px 6px black;
+}
+
+p{
+  color:white;
+  text-align: center;
+  font-size:30px;
+  font-family: 'Anton', sans-serif;
+  text-shadow:4px 5px 6px black;
+  
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'FONTE-PRINCIPAL';
+  src: url('Fontes/Louis George Cafe Bold Italic.ttf') format('truetype');
+}
+
+
+body{
+  background-color:black;
+}
+
+h1{
+  color:white;
+  font-family: 'FONTE-PRINCIPAL';
+  text-shadow:5px 6px 7px black;
+}
+
+p{
+  color:white;
+  font-family: 'FONTE-PRINCIPAL';
+  text-shadow: 5px 6px 7px black;
+}
