@@ -1,0 +1,46 @@
+
+
+
+body{
+  display: block;
+  background-color: black;
+  font-family: Sans-Serif;
+}
+
+p{
+  text-align: center;
+  color:white;
+  font-size:30px;
+}
+
+
+.Container{
+  width:200px;
+  height:350px;
+  background-color: white;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+
+}
+
+button{
+  text-decoration: none;
+  width:100px;
+  height:100px;
+  border-radius:100px;
+  font-size:50px;
+  box-shadow:1px 2px 3px white;
+}
+
+button:nth-of-type(odd){
+  background-color: blue;
+  color:white;
+}
+
+button:nth-of-type(even){
+  background-color: red;
+  color:white;
+}

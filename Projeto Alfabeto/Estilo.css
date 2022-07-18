@@ -1,0 +1,31 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+
+section{
+ 
+ width:100vw;
+ height:100vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+section:nth-of-type(odd){
+  background-color: black;
+  color:white;
+}
+
+section:nth-of-type(even){
+  background-color: white;
+  color:black;
+}
+
+
+p{
+  font-size:50vw;
+  font-family: Sans-Serif;
+}

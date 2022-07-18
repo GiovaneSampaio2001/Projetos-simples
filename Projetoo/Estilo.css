@@ -1,0 +1,25 @@
+body{
+  background-color: darkblue;
+}
+
+.Container{
+  width:150px;
+  height:150px;
+  background-color:blue;
+  color:white;
+  margin:auto;
+  border-radius:50%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+p{
+  text-align: center;
+}
+
+
+button{
+  display:block;
+  margin:auto;
+}

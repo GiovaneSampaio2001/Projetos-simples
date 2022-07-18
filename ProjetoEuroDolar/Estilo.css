@@ -1,0 +1,27 @@
+*{
+  margin:0px;
+}
+
+
+section{
+  min-height:300px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+p{
+  font-size:30px;
+}
+
+
+a{
+  background-color:blue;
+  color:white;
+  width:200px;
+  text-align: center;
+  padding:5px;
+  text-decoration: none;
+  border-radius:200px;
+}

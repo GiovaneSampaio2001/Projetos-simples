@@ -1,0 +1,78 @@
+body{
+  background-color:black;
+  width:100vw;
+  height:100vh;
+  background-image:url("tifundo.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  
+}
+
+.Binarios{
+  max-width:500px;
+  background-image:linear-gradient(to right,darkcyan,cyan);
+  padding:10px;
+  margin:15px auto;
+ 
+}
+
+
+
+h1{
+  color:white;
+  text-align: center;
+  text-shadow:2px 3px 4px black;
+}
+
+.Conteudos{
+  max-width:1000px;
+  background-color: black;
+  padding:15px;
+  margin:15px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.Conteudo1{
+  background-image:url("ti1.jpg");
+}
+
+.Conteudo2{
+  background-image: url("ti2.jpg");
+}
+
+.Conteudo3{
+  background-image: url("ti3.jpg");
+}
+
+.Conteudo4{
+  background-image:url("ti4.jpg");
+}
+
+.Conteudo5{
+  background-image: url("ti5.jpg");
+}
+
+.Conteudo6{
+  background-image:url("ti6.jpg");
+}
+
+.Conteudo7{
+  background-image:url("ti7.jpg");
+}
+
+.Conteudo8{
+  background-image: url("ti8.jpg");
+}
+
+.Conteudo9{
+  background-image: url("ti9.jpg");
+}
+
+
+.Conteudo10{
+  background-image: url("ti10.jpg");
+}

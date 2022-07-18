@@ -1,0 +1,63 @@
+
+*{
+  margin:5px;
+  padding:5px;
+}
+
+body{
+  background-color: cyan;
+  background-image:url("letras.jpg");
+  background-attachment: fixed;
+  background-position:center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+.CaixasDeAlfabetos{
+  min-height:100px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.Letras{
+  box-shadow:2px 3px 4px black;
+  width:100px;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.Letras:nth-of-type(odd){
+  background-color:darkblue;
+}
+
+.Letras:nth-of-type(even){
+  background-color: blue;
+}
+
+p{
+  color:white;
+font-family: arial,Sans-Serif;
+}
+
+.Letra1{
+  font-size:15px;
+}
+
+.Letra2{
+  font-size:20px;
+}
+
+.Letra3{
+  font-size:30px;
+}
+
+.Letra4{
+  font-size:40px;
+}
+
+.Letra5{
+  font-size: 90px;
+}

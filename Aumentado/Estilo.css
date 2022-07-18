@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+  background-color:black;
+  width:100vw;
+  height: 100vh;
+  display: block;
+}
+
+p{
+  text-align: center;
+  color:white;
+font-family: 'Anton', sans-serif;
+}
+
+button{
+  width:200px;
+  height:60px;
+  margin:5px auto;
+  display:block;
+ 
+}

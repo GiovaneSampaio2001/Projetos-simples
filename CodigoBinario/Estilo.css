@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  margin:0px;
+}
+
+body{
+  width:100vw;
+  height:100vh;
+  background-color:black;
+  background-image: url('binario1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.Codigos{
+  min-height:500px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.Binarios{
+  width:200px;
+  height:100px;
+  margin:8px;
+  border-radius: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Binario1{
+  background-color: blue;
+}
+
+.Binario2{
+  background-color:red;
+}
+
+.Binario3{
+  background-color:grey;
+}
+
+.Binario4{
+  background-color: green;
+}
+
+.Binario5{
+  background-color: yellow;
+}
+
+.Binario6{
+  background-color: pink;
+}
+
+.Binario7{
+  background-color: purple;
+}
+
+.Binario8{
+  background-color:brown;
+ 
+}
+
+.Binario9{
+  background-color: darkblue;
+}
+
+.Binario10{
+  background-color: violet;
+}
+
+.Binario11{
+  background-color: lime;
+}
+
+.Binario12{
+  background-color: indigo;
+}
+
+.Binario13{
+  background-color: teal;
+}
+
+.Binario14{
+  background-color: khaki;
+}
+
+.Binario15{
+  background-color:orangered;
+}
+
+.Binario16{
+  background-color:cyan;
+}
+
+.Binario17{
+  background-image:linear-gradient(to right,darkblue,blue);
+}
+
+.Binario18{
+  background-color:lightgreen;
+}
+
+.Binario19{
+  background-color:darkgreen;
+}
+
+.Binario20{
+  background-color:skyblue;
+}
+
+p{
+  color:white;
+  font-size:30px;
+font-family: 'Bebas Neue', cursive;
+}

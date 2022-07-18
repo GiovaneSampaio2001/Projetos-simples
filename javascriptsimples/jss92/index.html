@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Mudando Cor Do Fundo Do Site</title>
+<style>
+
+p{
+  text-align: center;
+  font-size:50px;
+}
+
+button{
+  margin:50px auto;
+  display: block;
+  font-size: 40px;
+  padding:20px;
+}
+
+button:nth-of-type(1){
+  background-color:blue;
+  color:white;
+}
+
+button:nth-of-type(2){
+  background-color: black;
+  color:white;
+}
+
+button:nth-of-type(3){
+  background-color: yellow;
+  color:black;
+}
+
+button:nth-of-type(4){
+  background-color: orange;
+  color:white;
+}
+
+button:nth-of-type(5){
+  background-color: purple;
+  color:white;
+}
+
+button:nth-of-type(6){
+  background-color: red;
+  color:black;
+}
+
+button:nth-of-type(7){
+  background-color: green;
+  color:white;
+}
+
+button:nth-of-type(8){
+  background-color:brown;
+  color:white;
+}
+
+button:nth-of-type(9){
+  background-color: grey;
+  color:white;
+}
+
+button:nth-of-type(10){
+  background-color: skyblue;
+  color:white;
+}
+  
+</style>
+</head>
+<body>
+  
+<p id="Resu"> FUNDO BRANCO ATIVADO</p>
+  
+<button onclick="FundoAzul()">
+  
+ATIVAR FUNDO AZUL
+  
+</button>
+
+<button onclick="FundoPreto()">
+  
+ATIVAR FUNDO PRETO
+  
+</button>
+
+<button onclick="FundoAmarelo()">
+ 
+ 
+ ATIVAR FUNDO AMARELO
+  
+</button>
+
+<button onclick="FundoLaranja()">
+ 
+ATIVAR FUNDO LARANJA
+  
+</button>
+
+
+<button onclick="FundoRoxo()">
+  
+ATIVAR FUNDO ROXO
+  
+</button>
+
+<button onclick="FundoVermelho()">
+
+ATIVAR FUNDO VERMELHO
+  
+</button>
+
+<button onclick="FundoVerde()">
+  
+ATIVAR FUNDO VERDE
+  
+</button>
+
+<button onclick="FundoMarrom()">
+  
+ATIVAR FUNDO MARROM
+  
+</button>
+
+<button onclick="FundoCinza()">
+  
+ATIVAR FUNDO CINZA
+  
+</button>
+
+<button onclick="FundoAzulBebe()">
+  
+ATIVAR FUNDO AZUL BEBE
+  
+</button>
+
+<script>
+  
+function FundoAzul(){
+let Azul=document.getElementById("Resu")
+document.body.style.background="blue"
+Azul.innerText=" FUNDO AZUL ATIVADO "
+Azul.style.color="white"
+}
+
+function FundoPreto(){
+let Preto=document.getElementById("Resu")
+document.body.style.background="black"
+Preto.innerText=" FUNDO PRETO ATIVADO "
+Preto.style.color="white"
+}
+
+function FundoAmarelo(){
+let Amarelo=document.getElementById("Resu")
+document.body.style.background="yellow"
+Amarelo.innerText=" FUNDO AMARELO ATIVADO"
+Amarelo.style.color="black"
+}
+
+function FundoLaranja(){
+let Laranja=document.getElementById("Resu")
+document.body.style.background="orange"
+Laranja.style.color="white"
+Laranja.innerText=" FUNDO LARANJA ATIVADO"
+}
+
+function FundoRoxo(){
+let Roxo=document.getElementById("Resu")
+Roxo.style.color="white"
+document.body.style.background="purple"
+Roxo.innerText=" FUNDO ROXO ATIVADO"
+}
+
+function FundoVermelho(){
+let Vermelho=document.getElementById("Resu")
+document.body.style.background="red"
+Vermelho.innerText=" FUNDO VERMELHO ATIVADO"
+Vermelho.style.color="black"
+}
+
+function FundoVerde(){
+let Verde=document.getElementById("Resu")
+document.body.style.background="green"
+Verde.innerText=" FUNDO VERDE ATIVADO "
+Verde.style.color="white"
+}
+
+function FundoMarrom(){
+let Marrom=document.getElementById("Resu")
+document.body.style.background="brown"
+Marrom.innerText=" FUNDO MARROM ATIVADO"
+Marrom.style.color="white"
+}
+
+function FundoCinza(){
+let Cinza=document.getElementById("Resu")
+document.body.style.background="grey"
+Cinza.innerText=" FUNDO CINZA ATIVADO"
+Cinza.style.color="white"
+}
+
+
+function FundoAzulBebe(){
+let AzulBebe=document.getElementById("Resu")
+AzulBebe.innerText=" FUNDO AZUL BEBE ATIVADO"
+document.body.style.background="skyblue"
+AzulBebe.style.color="white"
+}
+  
+</script>
+  
+</body>
+</html>

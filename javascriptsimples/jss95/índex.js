@@ -1,0 +1,132 @@
+async function TransformaValorEmDolar(Valor){
+  return await Valor.toLocaleString(`en`,{style:'currency',currency:'USD'})
+}
+
+TransformaValorEmDolar(1000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(2000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(3000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(4000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(5000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(6000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(7000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(8000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(9000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(10000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(11000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(12000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(13000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(14000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(15000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(16000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(17000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(18000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(19000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmDolar(20000).then((resu)=>{
+  console.log(resu)
+})
+
+async function TransformaValorEmReal(Valor){
+  return await Valor.toLocaleString(`pt-BR`,{style:'currency',currency:'BRL'})
+}
+
+TransformaValorEmReal(1000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(2000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(3000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(4000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(5000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(6000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(7000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(8000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(9000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(10000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(11000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(12000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(13000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(14000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(15000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(15000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(16000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(17000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(18000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(19000).then((resu)=>{
+  console.log(resu)
+})
+TransformaValorEmReal(20000).then((resu)=>{
+  console.log(resu)
+})
